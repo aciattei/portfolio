@@ -1,3 +1,14 @@
+/* ================ VARIÁVEIS ================ */
+:root {
+  --primary-color: #50e6ec;
+  --text-dark: #000000;
+  --text-light: #ffffff;
+  --text-gray: #909090;
+  --bg-dark: #000000;
+  --bg-light: #f8f8f8;
+  --transition: all 0.3s ease;
+}
+
 /* -----GERAL----- */
 * {
   margin: 0;
@@ -12,7 +23,7 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-/* -----MENU----- */
+/* ================ HOME ================ */
 header {
   padding-top: 1.5vh;
   height: 20vh;
@@ -35,7 +46,7 @@ nav li a {
   padding-right: 2.5vw;
   display: inline-block;
   text-decoration: none;
-  color: #909090;
+  color: var(--text-gray);
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -43,11 +54,9 @@ nav li a {
 nav li a:hover, nav li a:focus {
 	transition:0.4s;
 	outline: none;
-	color:#50e6ec; 
+	color:var(--primary-color); 
 }
 
-
-/* -----HOME----- */
 section {
 	display: flex;
 	flex-direction: column;
@@ -59,35 +68,31 @@ section {
 
 .home {
   height: 80vh;
+  position: relative;
+}
+
+.title-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.intro-text {
+  position: absolute;
+  top: -1.5em;
+  left: 0;
+  width: auto;
+  font-size: clamp(1rem, 2vw, 2.25rem);
+  white-space: nowrap;
+  color: var(--text-gray);
 }
 
 .home h1 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 7.75em;
-  line-height: 150px;
-
-  color: #000000;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /*margin-top: 10%; */ 
-}
-
-.home p {
-  position: absolute;
-  width: 12vw;
-  height: 1.35vh;
-  left: 180px;
-  top: 261px;
-
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: #909090;
+  font-size: clamp(3rem, 10vw, 7.75rem);
+  line-height: 1.2;
+  color: var(--text-dark);
+  position: relative;
+  margin: 0;
 }
 
 /* -----LINKS DE CONTATOS----- */
@@ -109,23 +114,23 @@ section {
 .fa-brands {
    width: 50px;
    font-size: 35px;
-   color: #000000;
+   color: var(--text-dark);
 }
 
 .social a:hover, .social a:focus {
 	transition: 0.4s;
 	outline: none;
-	color: #50e6ec; 
+	color: var(--primary-color); 
 }
 
-/* -----ABOUT----- */
+/* ================ ABOUT ================ */
 
 .about {
-  background-color: #000;
+  background-color: var(--bg-dark);
 }
 
 .about p {
-  color: white;
+  color: var(--text-light);
   max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
@@ -134,13 +139,9 @@ section {
   font-family: 'Inter', sans-serif;
 }
 
-/* MOBILE */
+/* ================ MOBILE ================ */
 
 @media(max-width: 768px){
-  /*nav {
-     background-image: <i class="fa-regular fa-bars"></i>
-  }*/
-  
   nav:hover {
      margin-bottom: 20px;
      height: 200px;
@@ -161,34 +162,36 @@ section {
     font-size: 62px;
   }
 
-  .home {
-    display: block;
-    margin: 20px 10px;
+  .home h1 {
+    font-size: 3rem;
+  }
+
+  .intro-text {
+    top: -1.2em;
+    font-size: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
   }
 
   .social li {
     display: block;
     margin: 20px 10px;
   }
-
-  .home p {
-    font-size: 16px;
-  }
-
 }
 
 /* Atualiza aqui */
-/* -----WORK----- */
+/* ================ WORK ================ */
 .work {
   padding: 80px 0;
-  background-color: #f8f8f8;
+  background-color: var(--bg-light);
   text-align: center;
 }
 
 .work h2 {
   font-size: 2.5em;
   margin-bottom: 50px;
-  color: #333;
+  color: var(--text-light);
 }
 
 .projects-grid {
@@ -201,7 +204,7 @@ section {
 }
 
 .project-card {
-  background: white;
+  background: var(--bg-light);
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -222,12 +225,12 @@ section {
 .project-card h3 {
   margin: 20px 0 10px;
   font-size: 1.5em;
-  color: #000;
+  color: var(--text-dark);
 }
 
 .project-card p {
   padding: 0 20px 20px;
-  color: #666;
+  color: var(--text-gray);
   line-height: 1.5;
 }
 
@@ -235,25 +238,25 @@ section {
   display: inline-block;
   margin-bottom: 20px;
   padding: 10px 20px;
-  background-color: #000;
-  color: white;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
   text-decoration: none;
   border-radius: 4px;
   transition: background-color 0.3s;
 }
 
 .project-link:hover {
-  background-color: #50e6ec;
+  background-color: var(--primary-color);
 }
 
-/* -----CONTACT----- */
+/* ================ CONTACT ================ */
 .contact {
-  background-color: #000;
-  color: white;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
 }
 
 .contact p {
-  color: white;
+  color: var(--text-light);
   max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
@@ -290,7 +293,7 @@ html {
 
 /* ----- ACTIVE LINK STYLING ----- */
 nav ul li a.active {
-  color: #50e6ec;
+  color: var(--primary-color);
   font-weight: 600;
 }
 
@@ -299,8 +302,8 @@ nav ul li a.active {
   display: inline-block;
   margin-top: 30px;
   padding: 10px 20px;
-  background-color: #000;
-  color: white;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
   text-decoration: none;
   border-radius: 4px;
   font-weight: 600;
@@ -310,7 +313,7 @@ nav ul li a.active {
 }
 
 .back-to-top:hover {
-  background-color: #50e6ec;
+  background-color: var(--primary-color);
   transform: translateY(-3px);
 }
 
