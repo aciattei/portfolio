@@ -180,7 +180,6 @@ section {
   }
 }
 
-/* Atualiza aqui */
 /* ================ WORK ================ */
 .work {
   padding: 80px 0;
@@ -328,4 +327,31 @@ html {
 header.scrolled {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   height: 10vh;
+}
+
+/* Atualiza aqui */
+/* ----- CONTACT FORM ----- */
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: var(--bg-light);
+  border: none;
+  color: var(--text-dark);
+  border-radius: 5px;
+  cursor: pointer;
 }
