@@ -33,7 +33,7 @@ export default function About() {
         <Reveal delay={150} className="relative">
           <div aria-hidden="true" className="absolute -inset-3 -z-0 rounded-3xl bg-gradient-to-tr from-primary/30 to-secondary/10 blur-xl" />
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-white/10">
-            <ImagePlaceholder alt={sobre.fotoDescricao} />
+            <ImagePlaceholder src="./profile.jpeg" alt={sobre.fotoDescricao} />
           </div>
         </Reveal>
       </div>
