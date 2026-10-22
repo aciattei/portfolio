@@ -24,11 +24,11 @@ export const navegacao = [
 ]
 
 export const hero = {
-  selo: 'Soluções digitais para pequenos negócios em Brasília',
+  selo: 'Soluções digitais para pequenos negócios',
   titulo: 'Transformo sua presença online e impulsiono suas vendas.',
   subtitulo:
-    'Crio sites e landing pages eficientes para empreendedores e pequenos negócios que querem ser encontrados, atrair mais clientes e vender mais — enquanto eu cuido de toda a parte técnica.',
-  ctaPrincipal: 'Fale com um especialista',
+    'Crio sites e landing pages eficientes para empreendedores e pequenos negócios que querem ser encontrados, atrair mais clientes e vender mais, enquanto eu cuido de toda a parte técnica.',
+  ctaPrincipal: 'Fale comigo',
   ctaSecundario: 'Conheça os serviços',
   pontos: ['Sem jargão técnico', 'Orçamento transparente', 'Suporte após a entrega'],
 }
@@ -37,15 +37,13 @@ export const sobre = {
   titulo: 'Tecnologia simples, a serviço do seu crescimento',
   paragrafos: [
     'Muitos empreendedores sabem que precisam estar na internet, mas esbarram na mesma barreira: a parte técnica parece complicada, cara e demorada. Foi para resolver exatamente esse problema que comecei a trabalhar com soluções digitais.',
-    'Com experiência em administração e na criação de sites e landing pages, uno visão de negócio e execução técnica. Isso significa que cada projeto começa entendendo o seu objetivo — atrair clientes, gerar contatos, vender mais — e só depois parte para a tecnologia.',
+    'Com experiência em administração e na criação de sites e landing pages, uno visão de negócio e execução técnica. Isso significa que cada projeto começa entendendo o seu objetivo, atrair clientes, gerar contatos, vender mais, e só depois parte para a tecnologia.',
     'Meu compromisso é com resultados tangíveis: uma presença online profissional, que funciona e que você entende, com transparência em cada etapa.',
   ],
   missao:
     'Acredito no poder da presença online para o crescimento de negócios. Simplifico a tecnologia para o sucesso do cliente.',
-  // EXEMPLO — substitua pelos seus números reais
   numeros: [
-    { valor: '5+', rotulo: 'anos de experiência' },
-    { valor: '30+', rotulo: 'clientes atendidos' },
+    { valor: '20+', rotulo: 'anos de experiência' },
     { valor: '100%', rotulo: 'projetos com suporte pós-entrega' },
   ],
   fotoDescricao: 'Foto profissional da fundadora em ambiente de trabalho, sorrindo, com notebook aberto',
@@ -66,7 +64,7 @@ export const servicos = {
       icone: 'landing',
       titulo: 'Landing pages de conversão',
       descricao:
-        'Páginas focadas em um único objetivo — gerar contatos, vender um produto ou divulgar uma oferta — com estrutura pensada para transformar visitantes em clientes.',
+        'Páginas focadas em um único objetivo: gerar contatos, vender um produto ou divulgar uma oferta, com estrutura pensada para transformar visitantes em clientes.',
     },
     {
       icone: 'suporte',
@@ -98,7 +96,7 @@ export const servicos = {
 
 export const diferenciais = {
   titulo: 'Por que trabalhar comigo',
-  subtitulo: 'Um parceiro estratégico para o sucesso digital do seu negócio — do planejamento ao pós-entrega.',
+  subtitulo: 'Um parceiro estratégico para o sucesso digital do seu negócio, do planejamento ao pós-entrega.',
   principal: {
     icone: 'resultado',
     titulo: 'Soluções eficientes, resultados tangíveis',
@@ -119,7 +117,7 @@ export const diferenciais = {
     {
       icone: 'mobile',
       titulo: 'Pronto para celular',
-      descricao: 'Todos os projetos funcionam bem em qualquer tela — onde a maioria dos seus clientes está.',
+      descricao: 'Todos os projetos funcionam bem em qualquer tela, onde a maioria dos seus clientes está.',
     },
     {
       icone: 'local',
@@ -136,24 +134,24 @@ export const depoimentos = {
   subtitulo: 'A confiança de quem já transformou a presença online do próprio negócio.',
   itens: [
     {
-      nome: 'Nome do Cliente',
-      cargo: 'Proprietária — Loja de Moda',
+      nome: 'Cynthia Moura',
+      cargo: 'Proprietária — Cerrado e Tramas',
       texto:
         'Eu não sabia nem por onde começar. Recebi um site bonito, rápido e que eu consigo entender. Em poucas semanas, começaram a chegar contatos pelo WhatsApp vindos do site.',
-      resultado: 'Mais contatos pelo WhatsApp',
+      resultado: 'Presença digital estabelecida',
       exemplo: true,
     },
     {
-      nome: 'Nome do Cliente',
-      cargo: 'Fundador — Consultoria Contábil',
+      nome: 'Cliente Satisfeito',
+      cargo: 'Cargo — Empresa',
       texto:
         'Atendimento claro do início ao fim. O orçamento foi transparente e a landing page ficou focada exatamente no que eu precisava: gerar pedidos de proposta.',
       resultado: 'Landing page focada em conversão',
       exemplo: true,
     },
     {
-      nome: 'Nome do Cliente',
-      cargo: 'Sócia — Estúdio de Estética',
+      nome: 'Cliente Satisfeito',
+      cargo: 'Cargo — Empresa',
       texto:
         'O melhor foi não precisar me preocupar com nada técnico. Hospedagem, domínio e ajustes ficaram por conta dela. Hoje meu negócio passa muito mais credibilidade.',
       resultado: 'Mais credibilidade online',
@@ -165,7 +163,7 @@ export const depoimentos = {
 export const ctaFinal = {
   titulo: 'Pronto para transformar sua presença online e impulsionar suas vendas?',
   texto:
-    'Converse sem compromisso. Entendo o seu negócio, indico a solução mais adequada ao seu momento e apresento um orçamento transparente — sem jargão técnico e sem surpresas.',
-  ctaPrincipal: 'Fale com um especialista',
+    'Converse sem compromisso. Entendo o seu negócio, indico a solução mais adequada ao seu momento e apresento um orçamento transparente, sem jargão técnico e sem surpresas.',
+  ctaPrincipal: 'Fale comigo',
   ctaWhatsApp: 'Chamar no WhatsApp',
 }
