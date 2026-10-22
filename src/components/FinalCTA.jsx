@@ -18,7 +18,7 @@ export default function FinalCTA() {
           </a>
           <a href={linkWhatsApp()} target="_blank" rel="noopener noreferrer" className="btn w-full bg-white px-8 py-4 text-lg text-ink-950 hover:bg-slate-100 sm:w-auto">
             <WhatsAppIcon className="h-5 w-5 text-[#128C7E]" />
-            {contato.whatsappExibicao}
+            Contato
           </a>
         </div>
 

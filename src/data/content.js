@@ -6,7 +6,6 @@
 
 export const contato = {
   whatsapp: '5561999941796', // formato internacional, só números
-  whatsappExibicao: '(61) 99994-1796',
   email: 'aciattei@gmail.com',
   cidade: 'Brasília - DF',
   mensagemPadrao:

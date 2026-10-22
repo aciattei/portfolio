@@ -32,7 +32,7 @@ export default function Footer() {
           <address className="mt-4 space-y-2 not-italic text-slate-300">
             <p>
               <a href={linkWhatsApp()} target="_blank" rel="noopener noreferrer" className="hover:text-primary-light">
-                WhatsApp: {contato.whatsappExibicao}
+                Contato
               </a>
             </p>
             <p>
