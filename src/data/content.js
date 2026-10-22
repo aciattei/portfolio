@@ -1,7 +1,5 @@
 // =====================================================================
-// TODO O TEXTO DO SITE FICA AQUI. Edite este arquivo para atualizar o conteúdo.
-// Itens marcados com "EXEMPLO" são ilustrativos: substitua por dados reais
-// antes de publicar (números de impacto e depoimentos).
+// Parte do conteúdo é apenas ilustrativo.
 // =====================================================================
 
 export const contato = {
