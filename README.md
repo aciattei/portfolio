@@ -7,6 +7,11 @@ npm run dev      # abre em http://localhost:5173
 npm run build    # gera a pasta dist/
 ```
 
+## Publicar no GitHub Pages
+O workflow `.github/workflows/pages.yml` compila e publica o site automaticamente a cada push na branch `main`.
+
+No GitHub, abra **Settings → Pages** e selecione **GitHub Actions** como origem do deploy. Depois, acompanhe a publicação na aba **Actions**. O endereço do site será `https://aciattei.github.io/portfolio/`.
+
 ## Onde editar
 - **Textos:** `src/data/content.js` (todo o conteúdo do site está nesse arquivo).
 - **Fotos:** coloque os arquivos em `public/` e passe `src="./nome.jpg"` no componente `ImagePlaceholder`
